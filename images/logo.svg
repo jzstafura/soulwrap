@@ -1,0 +1,29 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <!-- Define the embrace curves -->
+  <defs>
+    <style>
+      .soul-embrace {
+        fill: none;
+        stroke: #1a1a1a;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+      
+      .soul-embrace-light {
+        fill: none;
+        stroke: #ffffff;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  
+  <!-- Left curve of the embrace -->
+  <path class="soul-embrace" d="M 65 60 Q 45 100 65 140" />
+  
+  <!-- Right curve of the embrace -->
+  <path class="soul-embrace" d="M 135 60 Q 155 100 135 140" />
+  
+  <!-- Optional: subtle circle in negative space (the soul being embraced) -->
+  <circle cx="100" cy="100" r="8" fill="none" stroke="#1a1a1a" stroke-width="1.5" opacity="0.4" />
+</svg>
