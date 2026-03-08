@@ -2,6 +2,8 @@
 
 A deadpan product landing page for a fictional existential wellness brand.
 
+https://jzstafura.github.io/soulwrap/
+
 ## About
 
 SoulWrap™ is a parody product for entertainment purposes. It's a minimalist, luxury-aesthetic landing page that satirizes wellness culture and infomercials while exploring the absurdist nature of existential dread.
@@ -44,23 +46,6 @@ To run locally:
 python3 -m http.server 8000
 # Then visit http://localhost:8000
 ```
-
-## Deployment to GitHub Pages
-
-Once you've created the GitHub repo and cloned it locally:
-
-1. Copy all files into your local repo folder
-2. Commit and push:
-   ```bash
-   git add .
-   git commit -m "Initial SoulWrap site"
-   git push origin main
-   ```
-3. In GitHub repo settings:
-   - Go to **Settings** → **Pages**
-   - Set **Source** to "Deploy from a branch"
-   - Select **main** branch and **/ (root)**
-   - Your site will be live at `https://jzstafura.github.io/soulwrap/`
 
 ## Disclaimer
 
